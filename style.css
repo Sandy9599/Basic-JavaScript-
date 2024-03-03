@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 255, 255)
+}
+
+header {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+  background-color: bisque;
+  border: 1px solid black;
+}
+
+header h1 {
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+  padding: 10px;
+  background-color: rgb(31, 53, 255);
+  border-radius: 15px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.main-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 100%;
+}
+
+.main {
+  height: 30vh;
+  background-color: cornflowerblue;
+  border-radius: 5px;
+  font-size: 22px;
+  border: 1px solid black;
+  width: 35%;
+}
+
+h2 {
+  padding: 15px;
+}
+
+button {
+  padding: 5px;
+  font-size: 18px;
+  border: 2px solid black;
+  color: blueviolet;
+  cursor: pointer;
+  margin: 15px;
+  background-color: rgb(10, 255, 173);
+  border-radius: 8px;
+  border-left: none;
+  border-top: none;
+  margin-top: 4px;
+}
+
+.Main2 {
+  height: 30vh;
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 35%;
+  text-align: center;
+  background-color: rgb(200, 255, 146);
+  border-radius: 8px;
+  border-left: none;
+  border-top: none;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 40px;
+
+}
+
+.time p {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.Click {
+  padding: 5px;
+  font-size: 18px;
+  border: 2px solid black;
+  color: blueviolet;
+  cursor: pointer;
+  margin: 15px;
+  background-color: rgb(10, 255, 173);
+  border-radius: 8px;
+  border-left: none;
+  border-top: none;
+}
+
+.Main3 {
+  height: 30vh;
+  background-color: rgb(255, 255, 255);
+  width: 40%;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 8px;
+  border-left: none;
+  border-top: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#box {
+  width: 430px;
+  height: 160px;
+  margin: 18px;
+  border: 1px solid rgb(217, 194, 194);
+  background-color: rgb(0, 0, 0);
+  justify-self: center;
+  text-align: center;
+  border-radius: 7px;
+}
+
+#box p {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 35px;
+  padding-top: 50px;
+  font-size: 16px;
+  color: rgb(153, 255, 0);
+}
+
+.box4 {
+  width: 430px;
+  height: 165px;
+  margin: 18px;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  justify-self: center;
+  text-align: center;
+  border-radius: 7px;
+  padding: 5px;
+}
+
+.Greet{
+  font-family: cursive;
+  font-size: 16px;
+}
+
+.next {
+  display: inline-block;
+  width: 500px;
+  height: 160px;
+  border: 1px solid black;
+  margin: 40px 0px 0px 15px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 8px;
+  border-left: none;
+}
+
+.age {
+  padding: 5px;
+  font-size: 18px;
+  border: 2px solid black;
+  border-radius: 8px;
+  border-left: none;
+  border-top: none;
+  color: blueviolet;
+  cursor: pointer;
+  margin: 15px;
+  background-color: rgb(255, 255, 255);
+}
+
+
+.section {
+  width: 500px;
+  height: 160px;
+  border: 1px solid black;
+  margin: 40px 50px 0px 10px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 8px;
+  border-right: none;
+  float: right;
+}
+
+.Welcome {
+  padding: 5px;
+  font-size: 18px;
+  border: 2px solid black;
+  border-radius: 8px;
+  border-left: none;
+  border-top: none;
+  color: blueviolet;
+  cursor: pointer;
+  margin: 15px;
+  background-color: rgb(255, 255, 255);
+}
+
+h5 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  text-decoration: red underline;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+
+.loops{
+  width: 500px;
+  height: 100px;
+  border: 1px solid black;
+  margin: 40px 50px 0px 10px;
+  padding: 35px;
+  border: 2px solid black;
+  border-radius: 8px;
+  border-right: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.loops h6 {
+  font-size: 24px;
+  font-family: cursive;
+}
+
+
+.Debugging{
+  width: 300px;
+  height: 100px;
+  border: 1px solid black;
+  margin: 0px 50px 0px 10px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 8px;
+  border-right: none;
+  float: right;
+  font-size: 24px;
+}
+
+.object{
+  width: 500px;
+  height: 100px;
+  border: 1px solid black;
+  margin: 40px 50px 0px 10px;
+  padding: 35px;
+  border: 2px solid black;
+  border-radius: 8px;
+  border-right: none;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}

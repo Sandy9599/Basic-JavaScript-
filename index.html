@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>My Javascript Portfolio</h1>
+  </header>
+
+
+
+  <div class="main-container">
+    <div class="main">
+      <h2>Hello!! <br> Greet yourself</h2>
+      <button onclick="greetUser()">Greet ..</button>
+    </div>
+
+    <div class="Main2">
+      <div class="time">
+        <p>Click here to <br>
+          Check Current Date and Time</p>
+        <button class="click-btn" onclick="showDateTime()">Click me</button>
+      </div>
+    </div>
+    <div class="Main3">
+      <div id="box" onmouseover="MyFunction()" onclick="MyFunction2()" onmouseleave="MyFunction3()">
+        <p>Color changing Box</p>
+      </div>
+
+      <div class="box4">
+        <input type="text" name="name" id="name" />
+        <button class="Welcome" onclick="greet()">Welcome</button>
+        <div class="Greet"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="next">
+    <h4>Check If you are eligible to drink ??</h4>
+    <label for="ageInput">Enter your age:</label>
+    <input type="text" id="ageInput">
+    <button class="age" onclick="checkAge()">Check Age</button>
+    <p id="result"></p>
+  </div> 
+
+  <div class="section">
+    <h5>A Caluclator </h5>
+    <input type="number" name="first" id="first" step="any" />
+    <select id="ope">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">X</option>
+      <option value="/">/</option>
+    </select>
+    <input type="number" id="second" step="any" />
+    <br />
+    <br />
+    <button onclick="cal()">Calculate</button>
+    <input type="text" name="" id="res" readonly="" />
+  </div>
+
+
+  <div class="loops">
+    <h6><a href="loops and arrays.html" target="_blank">Loops and Arrays Example...</a></h6>
+
+  </div>
+
+<div class="object">
+  <p><a href="object and Methods.html" target="_blank"> Object and Methods Example </a></p>
+</div>
+
+  <div class="Debugging">
+    <p><a href="Debugging.html" target="_blank">Debugging Examples</a></p>
+  </div>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
